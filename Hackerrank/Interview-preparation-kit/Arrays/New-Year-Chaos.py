@@ -7,11 +7,10 @@ def minimumBribes(a):
     cnt = 0
     for i in a:
         if (i-1) - (a.index(i)) > 2:
-            print ("Too chaotic")
-            break
+            return print ("Too chaotic")
         elif (i-1) - (a.index(i)) == 2:
             cnt += 2
         elif (i-1) - (a.index(i)) == 1:
             cnt += 1
             
-    print (cnt)
+    return print (cnt)
