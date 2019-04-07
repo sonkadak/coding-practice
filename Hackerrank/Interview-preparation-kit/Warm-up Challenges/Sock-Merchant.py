@@ -5,7 +5,7 @@ def sockMerchant(n, ar):
     dups = set()  # for duplicated values in 'ar'
     cnts = []     # for duplicated value count
     
-    # find duplication
+    # get number from ar without duplication
     for i in ar:
         if i not in dups:
             dups.add(i)
